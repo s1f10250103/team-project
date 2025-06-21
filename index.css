@@ -1,6 +1,9 @@
 .center{
     text-align: center;
 }
+body{
+    background-color: #cfe3f6;
+}
 
 #center{
     text-align: center;
@@ -8,7 +11,17 @@
 }
 
 #tytle{
+    backdrop-filter: blur(8px);
+    padding-top: 80px;
+    color: black;
     text-align: center;
+    font-size: 3rem;
+    margin-top: 0.1rem;
+    background-image: url(background_img.jpg);
+    opacity: 0.9;
+    background-size: auto;
+    background-position: 47% 58%;
+    height: 8rem;
 }
 .font-english{
     font-family: 'Philosopher',sans-serif;
@@ -23,10 +36,11 @@
 .side-menu{
     list-style: none;
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 .side-menu li{
-    border-bottom: 1px solid #c9c2bc;
+    border-bottom: 2px solid #c9c2bc;
 }
 .side-menu a{
     color: #432;
@@ -42,9 +56,11 @@
 }
 .post{
     width: 70%;
+    margin-top: -3rem;
 }
 .sidebar{
-    width: 22%;
+    width: 23%;
+    margin-top: -3rem;
 }
 .sidebar .heading-medium{
     line-height: 1;
