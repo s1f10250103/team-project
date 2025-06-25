@@ -17,7 +17,7 @@ body{
     text-align: left;
     font-size: 3rem;
     margin-top: 0.1rem;
-    background-image: url(background_img.jpg);
+    background-image: url(../IMG/background_img.jpg);
     opacity: 0.95;
     background-size: auto;
     background-position: 47% 58%;
