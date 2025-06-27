@@ -2,7 +2,7 @@
     text-align: center;
 }
 body{
-    background-color: #cfe3f6;
+    background-color: #FAFAFA;
 }
 
 #center{
@@ -14,16 +14,19 @@ body{
     color: black;
     text-align: left;
     font-size: 3rem;
-    margin-top: 0.1rem;
+    margin-top: -1rem;
+    margin-left: -0.5rem;
+    margin-right: -1rem;
     background-image: url(../IMG/pexels-kokorevas-2968388.jpg);
     opacity: 1.0;
     background-size: auto;
-    background-position: 35% 57%;
+    background-position: 35% 56%;
     height: 8rem;
 }
 .font-english{
     font-family: 'Philosopher',sans-serif;
     font-weight: normal;
+    text-align: left;
 }
 .page-tytle,
 .heading-large,
@@ -59,7 +62,9 @@ body{
 }
 .sidebar{
     width: 23%;
-    margin-top: -3rem;
+    margin-top: -2rem;
+    margin-left: -0.5rem;
+    background-color: #e0eefc;
 }
 .sidebar .heading-medium{
     line-height: 1;
