@@ -10,7 +10,7 @@ body{
     font-size: 30px;
 }
 .space{
-padding-top: 1rem;
+padding-top: 2rem;
 }
 #tytle{
     backdrop-filter: blur(8px);
@@ -21,6 +21,7 @@ padding-top: 1rem;
     margin-top: -1rem;
     margin-left: -0.5rem;
     margin-right: -1rem;
+    margin-bottom: 3rem;
     background-image: url(../IMG/background_img.jpg);
     opacity: 0.95;
     background-size: auto;
@@ -67,9 +68,10 @@ padding-top: 1rem;
     margin-left: -0.5rem;
     margin-top: -3rem;
     background-color: #e0fae1;
+    margin-bottom: -1rem;
 }
 .sidebar .heading-medium{
-    line-height: 1;
+    line-height: 2;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -80,4 +82,17 @@ padding-top: 1rem;
 .box{
     padding-top: 2rem;
     padding-bottom: 1rem;
+}
+.left{
+    margin-top: 80px;
+}
+.s{
+    margin-top: 10px;
+    margin-bottom: -50px;
+}
+#q{
+    margin-top: 40px;
+}
+.c{
+    margin-top: 1rem;
 }
