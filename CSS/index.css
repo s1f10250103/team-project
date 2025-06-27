@@ -2,25 +2,29 @@
     text-align: center;
 }
 body{
-    background-color: #cfe3f6;
+    background-color: #FAFAFA;
 }
 
 #center{
     text-align: center;
     font-size: 30px;
 }
-
+.space{
+padding-top: 1rem;
+}
 #tytle{
     backdrop-filter: blur(8px);
     padding-top: 80px;
-    color: black;
-    text-align: center;
+    color: #1B1F3B;
+    text-align: left;
     font-size: 3rem;
-    margin-top: 0.1rem;
-    background-image: url(background_img.jpg);
-    opacity: 0.9;
+    margin-top: -1rem;
+    margin-left: -0.5rem;
+    margin-right: -1rem;
+    background-image: url(../IMG/background_img.jpg);
+    opacity: 0.95;
     background-size: auto;
-    background-position: 47% 58%;
+    background-position: 42% 58%;
     height: 8rem;
 }
 .font-english{
@@ -60,10 +64,13 @@ body{
 }
 .sidebar{
     width: 23%;
+    margin-left: -0.5rem;
     margin-top: -3rem;
+    background-color: #e0fae1;
 }
 .sidebar .heading-medium{
     line-height: 1;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 #sports{
