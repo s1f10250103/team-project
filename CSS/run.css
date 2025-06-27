@@ -1,0 +1,80 @@
+.center{
+    text-align: center;
+}
+body{
+    background-color: #FAFAFA;
+}
+
+#center{
+    text-align: center;
+    font-size: 30px;
+}
+#tytle{
+    padding-top: 80px;
+    color: black;
+    text-align: left;
+    font-size: 3rem;
+    margin-top: -1rem;
+    margin-left: -0.5rem;
+    margin-right: -1rem;
+    background-image: url(../IMG/pexels-kokorevas-2968388.jpg);
+    opacity: 1.0;
+    background-size: auto;
+    background-position: 35% 56%;
+    height: 8rem;
+}
+.font-english{
+    font-family: 'Philosopher',sans-serif;
+    font-weight: normal;
+    text-align: left;
+}
+.page-tytle,
+.heading-large,
+.heading-medium{
+    font-size: 3rem;
+    text-align: center;
+}
+.side-menu{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    color: black;
+}
+.side-menu li{
+    border-bottom: 2px solid #c9c2bc;
+}
+.side-menu a{
+    color: #432;
+    display: block;
+    padding: 1rem;
+}
+.side-menu a:hover{
+    color: #0bd;
+}
+.news-contents{
+    display: flex;
+    justify-content: space-between;
+}
+.post{
+    width: 70%;
+    margin-top: -3rem;
+}
+.sidebar{
+    width: 23%;
+    margin-top: -2rem;
+    margin-left: -0.5rem;
+    background-color: #e0eefc;
+}
+.sidebar .heading-medium{
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+#sports{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.box{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
