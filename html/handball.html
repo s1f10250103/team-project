@@ -4,79 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>チームで作るWebサイト</title>
+    <link rel="stylesheet" href="../css/handball.css">
 </head>
 <body>
-    <h1>スポーツ速報</h1>
-    <p>リスト： ホーム>ハンドボール</p>
-    <div class="">
-        <h3>[メニュー]</h3>
-        <ul>
-            <li>ホーム</li>
-            <li>スポーツ</li>
-            <ul>
-                <li>サッカー</li>
-                <li>陸上</li>
-                <li>ハンドボール</li>
-                <li>野球</li>
-                <li>バレー</li>
+    <h1 id="tytle">スポーツ速報</h1>
+    <main class="news-contents">
+        <aside class="result">
+            <h2 class="heading-medium font-english">Category</h2>
+            <ul class="side-menu">
+                <li><a href="index.html">ホーム</a></li>
+                <li id="sports">スポーツ</li>
+                <ul>
+                        <li class="side-menu"><a href="soccer.html">サッカー</a></li>
+                        <li class="side-menu"><a href="run.html">陸上</a></li>
+                        <li class="side-menu"><a href="handball.html">ハンドボール</a></li>
+                        <li class="side-menu">野球</li>
+                        <li class="side-menu">バレー</li>
+                </ul>
+                <ul>
+                    <li class="side-menu"><a href="#id1">小学生</a></li>
+                    <li class="side-menu"><a href="#id2">中学生</a></li>
+                    <li class="side-menu"><a href="#id3">高校生</a></li>
+                    <li class="side-menu"><a href="#id4">大学生</a></li>
+                    <li class="side-menu"><a href="#id5">社会人</a></li>
+                </ul>
             </ul>
-        </ul>
-    </div>
-    <div class="">
-        <p>フィルター</p>
-            <ul>
-                <li>小学生</li>
-                <li>中学生</li>
-                <li>高校生</li>
-            </ul>
-    </div>
-    <div class="">
-        <h4>大会一覧</h4>
-            <table border="0">
-                <tr>
-                  <th>期間</th>
-                  <th>大会名</th>
-                  <th>開催地</th>
-                </tr>
-                <tr>
-                    <th>2025/07/01～2025/07/05</th>
-                    <th>高松宮記念杯第13回全日本社会人ハンドボール選手権大会</th>
-                    <th>宮城県仙台市</th>
-                </tr>
-                <tr>
-                    <th>2025/07/31～2025/08/03</th>
-                    <th>第38回全国小学生ハンドボール大会</th>
-                    <th>京都府京田辺市</th>
-                </tr>
-                <tr>
-                    <th>2025/08/03 〜 2025/08/08</th>
-                    <th>高松宮記念杯第76回全日本高等学校ハンドボール選手権大会</th>
-                    <th>岡山県総社市、倉敷市</th>
-                </tr>
-            </table>
-    </div>
-    <div class="試合一覧">
-        <h5>試合一覧</h5>
-        <br>[2025年6月14日]チーム1 32-28 チーム2</br>
-        <details>
-            <summary>詳細</summary>
-            <table border="0">
-                <tr>
-                    <th>チーム1</th>
-                    <th>得点</th>
-                    <th>チーム2</th>
-                </tr>
-                <tr>
-                    <th>14</th>
-                    <th>前半</th>
-                    <th>14</th>
-                </tr>
-                <tr>
-                    <th>18</th>
-                    <th>後半</th>
-                    <th>14</th>
-                </tr>    
-            </table>
+        </aside>
+        <div class="result">
+            <h4>大会一覧</h4>
+                <table border="1">
+                    <tr>
+                    <th>期間</th>
+                    <th>大会名</th>
+                    <th>開催地</th>
+                    </tr>
+                    <tr>
+                        <th>2025/07/01～2025/07/05</th>
+                        <th>高松宮記念杯第13回全日本社会人ハンドボール選手権大会</th>
+                        <th>宮城県仙台市</th>
+                    </tr>
+                    <tr>
+                        <th>2025/07/31～2025/08/03</th>
+                        <th>第38回全国小学生ハンドボール大会</th>
+                        <th>京都府京田辺市</th>
+                    </tr>
+                    <tr>
+                        <th>2025/08/03 〜 2025/08/08</th>
+                        <th>高松宮記念杯第76回全日本高等学校ハンドボール選手権大会</th>
+                        <th>岡山県総社市、倉敷市</th>
+                    </tr>
+                </table>
         </div>
+        <div class="result">
+            <h5>試合一覧</h5>
+            <br>[2025年6月14日]チーム1 32-28 チーム2</br>
+            <details>
+                <summary>詳細</summary>
+                <table border="0">
+                    <tr>
+                        <th>チーム1</th>
+                        <th>得点</th>
+                        <th>チーム2</th>
+                    </tr>
+                    <tr>
+                        <th>14</th>
+                        <th>前半</th>
+                        <th>14</th>
+                    </tr>
+                    <tr>
+                        <th>18</th>
+                        <th>後半</th>
+                        <th>14</th>
+                    </tr>    
+                </table>
+        </div>
+    </main>
 </body>
 </html>
