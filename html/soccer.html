@@ -3,28 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>soccer</title>
+  <link rel="stylesheet" href="../CSS/soccer.css">
 </head>
 <body>
-  <div class="">
-    <div class="title">スポーツ速報</div>
-    <div class="リスト">
-      リスト：<a href="#ホームのURL">ホーム</a>＞サッカー
-    </div>
-    <div class="">
-      <div class="メニュー">
-        メニュー<br>
-        〇ホーム <br>
-        〇スポーツ
-        <ul>
-          <li>サッカー</li>
-          <li>陸上</li>
-          <li>ハンドボール</li>
-          <li>野球</li>
-          <li>バレー</li>
+  <div class="container">
+    <h1 class="title">サッカー速報</h1>
+    <div class="main-area">
+      <div class="sidebar">
+        <ul class="side-menu">
+         <li><a href="index.html">ホーム</a></li>
+                <li id="sports">スポーツ</li>
+                    <ul>
+                        <li class="side-menu"><a href="soccer.html">サッカー</a></li>
+                        <li class="side-menu"><a href="run.html">陸上</a></li>
+                        <li class="side-menu"><a href="handball.html">ハンドボール</a></li>
+                    </ul>
+                    <h2 class="heading-medium font-english">種目フィルター</h2>
+                    <ul>
+                        <li class="side-menu"><a href="#id1">トラック種目</a></li>
+                        <li class="side-menu"><a href="#id2">フィールド種目</a></li>
+                        <li class="side-menu"><a href="#id3">リレー</a></li>
+                    </ul>    
         </ul>
+      </ul>
       </div>
-      <div class="">
-          <div class="試合一覧">
+      <div class="content-area">
+        <div class="top-section">
+          <div class="left-box">
             <b>サッカー　試合一覧</b><br>
             [2025年6月16日]<br>
             [チーム1]　　2 - 1　　[チーム2]<br>
@@ -152,7 +157,8 @@
                 </tr>
               </table>
               </details>
-            [2025年6月14日]チーム2 0-1 チーム3<br>
+            [2025年6月14日]<br>
+            [チーム2]　　 0 - 1　　 [チーム3]<br>
             <details>
               <summary>チーム別データ</summary>
               <table border="1">
@@ -214,23 +220,13 @@
               </table>
               </details><br>
           </div>
-          <div class="リーグ">
-            <b>リーグ・大会選択</b><br>
-            〇リーグ　〇プレミアリーグ　〇チャンピオンズリーグ<br><br>
-            総合ランキング<br>
-            ゴールランキング<br>
-            １位<br>
-            セーブランキング<br>
-            一位
+          <div class="right-box">
+           
           </div>
-        </div><br>
+        </div>
         <div class="bottom-box">
-          <span class="subtitle">
-            開催が近い試合<br>
-          </span>
-          <span class="match">
-            teamA vs teamB
-          </span>
+          <span class="subtitle">開催が近い試合</span>
+          <span class="match">teamA vs teamB</span>
         </div>
       </div>
     </div>
