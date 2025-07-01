@@ -2,9 +2,14 @@
     text-align: center;
 }
 body{
-    background-color: #FAFAFA;
+    background-color: rgb(251, 237, 222);
 }
-
+.margin{
+    margin-top: 3rem;
+}
+.m{
+    margin-top: 2rem;
+}
 #center{
     text-align: center;
     font-size: 30px;
