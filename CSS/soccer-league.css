@@ -53,6 +53,57 @@ body {
   box-sizing: border-box;
 }
 
+.ranking-table-container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto 36px auto;
+  background: #fff;
+  border-radius: 8px;
+  overflow-x: auto;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.10);
+}
+
+.ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1em;
+  background: #fff;
+  color: #222;
+}
+.ranking-table thead tr {
+  background: #eaeaea;
+  color: #222;
+}
+.ranking-table th, .ranking-table td {
+  padding: 10px 8px;
+  text-align: center;
+}
+.ranking-table th.club-header, .ranking-table td.club {
+  text-align: left;
+}
+.ranking-table .club-logo {
+  width: 26px; height: 26px; vertical-align: middle; margin-right: 10px;
+  border-radius: 4px; object-fit: contain;
+}
+.ranking-table td.rank {
+  color: #888; width: 24px;
+}
+.ranking-table .points,
+.ranking-table .points-header {
+  font-weight: bold; color: #222;
+}
+.ranking-table tr.highlight {
+  background: #f0f4ff;
+}
+.ranking-table tbody tr:not(.highlight):hover {
+  background: #f7fbff;
+  transition: background 0.2s;
+}
+
+.ranking-table td.club {
+  max-width: 100px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
 .left-box {
   grid-column: 1;
   grid-row: 1;
