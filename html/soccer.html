@@ -3,30 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <title>soccer</title>
+  <link rel="stylesheet" href="../CSS/soccer.css">
 </head>
 <body>
-  <div class="">
-    <div class="title">スポーツ速報</div>
-    <div class="リスト">
-      リスト：<a href="#ホームのURL">ホーム</a>＞サッカー
-    </div>
-    <div class="">
-      <div class="メニュー">
-        メニュー<br>
-        〇ホーム <br>
-        〇スポーツ
-        <ul>
-          <li>サッカー</li>
-          <li>陸上</li>
-          <li>ハンドボール</li>
-          <li>野球</li>
-          <li>バレー</li>
+  <h1 class="title">　スポーツ速報</h1>
+  <div class="container">    
+      <div class="sidebar">
+        <ul class="side-menu">
+         <h2 class="side-home"><a href="index.html">ホーム</a></h2><br>
+         <h2 class="side-sport"><a href="soccer.html">サッカー</a></h2>
+         <h2 class="side-sport"><a href="run.html">陸上</a></h2>
+         <h2 class="side-sport"><a href="handball.html">ハンドボール</a></h2>
+        </ul>
+        <ul class="side-menu2">
+          <h2 class="side-league-title">リーグ</h2>
+          <h2 class="side-league"><a href="">J1リーグ</a></h2>
+          <h2 class="side-league"><a href="">プレミアリーグ</a></h2>
+          <h2 class="side-league"><a href="">ラ・リーガ</a></h2>
+          <h2 class="side-league"><a href="">ブンデスリーガ</a></h2>
+          <h2 class="side-league"><a href="">セリエＡ</a></h2>
+          <h2 class="side-league"><a href="">リーガ１</a></h2>
         </ul>
       </div>
-      <div class="">
-          <div class="試合一覧">
-            <b>サッカー　試合一覧</b><br>
-            [2025年6月16日]<br>
+      <div class="content-area">
+          <div class="left-box">
+            <h2>直近で行われた注目の試合</h2><br>
+            [2025年6月15日]<br>
             [チーム1]　　2 - 1　　[チーム2]<br>
             Aさん 33'　　　　　　Bさん 40'<br>
             Jさん 70'
@@ -152,7 +154,8 @@
                 </tr>
               </table>
               </details>
-            [2025年6月14日]チーム2 0-1 チーム3<br>
+            [2025年6月14日]<br>
+            [チーム2]　　 0 - 1　　 [チーム3]<br>
             <details>
               <summary>チーム別データ</summary>
               <table border="1">
@@ -214,25 +217,18 @@
               </table>
               </details><br>
           </div>
-          <div class="リーグ">
-            <b>リーグ・大会選択</b><br>
-            〇リーグ　〇プレミアリーグ　〇チャンピオンズリーグ<br><br>
-            総合ランキング<br>
-            ゴールランキング<br>
-            １位<br>
-            セーブランキング<br>
-            一位
+          <div class="right-box">
+            <h2>各リーグの詳細はこちら</h2>
+            <p class="league"><a href="">J1リーグ</a></p>
+            <p class="league"><a href="">プレミアリーグ</a></p>
+            <p class="league"><a href="">ラ・リーガ</a></p>
+            <p class="league"><a href="">ブンデスリーガ</a></p>
+            <p class="league"><a href="">セリエＡ</a></p>
+            <p class="league"><a href="">リーガ１</a></p>
           </div>
-        </div><br>
-        <div class="bottom-box">
-          <span class="subtitle">
-            開催が近い試合<br>
-          </span>
-          <span class="match">
-            teamA vs teamB
-          </span>
-        </div>
-      </div>
+          <div class="under-box">
+            開催が近い試
+          </div>
     </div>
   </div>
 </body>
